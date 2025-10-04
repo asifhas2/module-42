@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": "$9/month",
+    "description": "Perfect for individuals getting started with essential tools.",
+    "features": [
+      "1 user account",
+      "5 GB cloud storage",
+      "Email support (Mon–Fri)",
+      "Basic analytics dashboard",
+      "Access from any device",
+      "SSL Security & data encryption",
+      "Community support forum",
+      "Regular software updates"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": "$29/month",
+    "description": "Ideal for small teams and growing businesses that need more power.",
+    "features": [
+      "Up to 5 team members",
+      "100 GB cloud storage",
+      "Priority email & chat support",
+      "Advanced analytics & custom reports",
+      "Custom branding and themes",
+      "Team collaboration tools",
+      "Task automation",
+      "Access to beta features",
+      "Integration with Google Drive, Slack, and Trello",
+      "Monthly performance insights"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Business",
+    "price": "$59/month",
+    "description": "Best for established businesses that need scalability and support.",
+    "features": [
+      "Unlimited team members",
+      "1 TB secure cloud storage",
+      "24/7 phone, email & chat support",
+      "AI-powered analytics dashboard",
+      "Custom workflows and permissions",
+      "Role-based access control",
+      "Audit logs and user activity tracking",
+      "API access and developer tools",
+      "Integration with CRM and accounting apps",
+      "Performance optimization tools",
+      "Quarterly business reviews"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Enterprise",
+    "price": "Custom pricing",
+    "description": "For large organizations with custom security, integrations, and SLA.",
+    "features": [
+      "Unlimited users and projects",
+      "On-premise or private cloud deployment",
+      "Dedicated technical support team",
+      "Custom SLA & onboarding training",
+      "Single Sign-On (SSO) & 2FA support",
+      "Custom integrations with ERP/HRM systems",
+      "Advanced compliance (GDPR, HIPAA, ISO)",
+      "Custom data migration assistance",
+      "Dedicated account manager",
+      "Early access to experimental features",
+      "Quarterly security audits"
+    ]
+  }
+]

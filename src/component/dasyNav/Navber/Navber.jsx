@@ -35,20 +35,28 @@ const Navber = () => {
 
     const links =   navData.map(route => <Link key={route.id} route={route}></Link>)
     return (
-        <nav  className='flex justify-between mx-10'>
+        <nav  className='flex justify-between mx-10 mt-10'>
           <span className='flex gap-2 ' onClick={()=> setOpen(!open)}>
 
 
-            { open ?
-             <X className='md:hidden'></X> : 
+        <div className='flex flex-col cursor-pointer'>
+               <div>
+               { open ?
+             <X className='md:hidden '></X> : 
             <Menu className='md:hidden'></Menu> 
             }
+         </div>
 
-            {
-                <ul className='md:hidden'>
+          <div>
+                {
+                <ul className={`md:hidden mt-5  duration-500
+                 ${open ? `` : `hidden`}
+                  bg-amber-400`}>
                     {links}
                 </ul>
             }
+          </div>
+        </div>
               
             <h3>my navbar</h3>
           </span>
@@ -64,6 +72,7 @@ const Navber = () => {
                 }
             </ul> */}
             <h3>sign in </h3>
+             
         </nav>
     );
 };
